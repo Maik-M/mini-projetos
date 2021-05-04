@@ -10,7 +10,7 @@ while finalizador == 1:
     nota_2 = float(input('Digite a segunda nota: '))
 
     media = ((nota_1 + nota_2) / 2)
-    if (media >= 7) and (media < 10):
+    if (media >= 7) and (media <= 10):
         print('APROVADO!')
     elif media < 7:
         print('REPROVADO!')
